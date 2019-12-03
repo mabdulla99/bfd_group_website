@@ -8,7 +8,7 @@ canonifyurls = true
 theme = "hugo-academic-group"
 title = "Bates Fluid Dynamics Group"
 math = true
-copyright = "&copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran"
+copyright = "&copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran"
 
 [taxonomies]
 category = "categories"
@@ -33,7 +33,7 @@ tag = "tags"
   # Section will only be displayed if there are posts in `content/post/`.
   [params.posts]
     count = 2
-    title = "News"
+    title = "Blog"
     subtitle = ""
     str_all = "More Posts"
     str_read_more = "Read more"
@@ -79,57 +79,59 @@ tag = "tags"
       weight = 1
 
   [[menu.main]]
+      name = "Blog"
+      url = "#posts"
+      weight = 2
+
+
+
+  [[menu.main]]
       name = "Research"
       url = "/research"
-      weight = 2
+      weight = 3
       identifier = "research"
 
   [[menu.main]]
       name = "Overview"
       url = "/research/overview"
       parent = "research"
-      weight = 3        
+      weight = 4        
 
   [[menu.main]]
       name = "Getting Started"
       url = "/research/getting_started"
       parent = "research"
-      weight = 3
+      weight = 5
 
   [[menu.main]]
       name = "Dedalus Tutorials"
       url = "/research/dedalus_tutorials"
       parent = "research"
-      weight = 4
+      weight = 6
       
-  [[menu.main]]
-      name = "News"
-      url = "#posts"
-      weight = 3
-
   [[menu.main]]
       name = "Publications"
       url = "#publications"
       parent = "research"
-      weight = 4
+      weight = 7
 
   [[menu.main]]
       name = "Projects"
       url = "#projects"
       parent = "research"
-      weight = 5
+      weight = 8
 
   [[menu.main]]
       name = "Members"
       url = "#members"
-      weight = 6
+      weight = 9
 
   [[menu.main]]
       name = "Join Us!"
       url = "#vacancies"
-      weight = 7
+      weight = 10
 
   [[menu.main]]
       name = "Contact"
       url = "#contact"
-      weight = 8
+      weight = 11
